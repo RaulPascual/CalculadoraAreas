@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Has seleccionado Calculadora normal"
+      android:textColor="#FF0000"
+      android:textSize="20dp"
+      />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:hint="Numero 1"
+      android:id="@+id/num1"
+      />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:hint="Numero 2"
+      android:id="@+id/num2"
+      />
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+  <Button
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:text="Sumar"
+      android:id="@+id/suma"
+      />
+
+  <Button
+      android:id="@+id/resta"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:text="Restar" />
+    <Button
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:text="Multiplicar"
+      android:id="@+id/mult"
+      />
+  <Button
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:text="Dividir"
+      android:id="@+id/div"
+      />
+  </LinearLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="00"
+      android:textSize="80sp"
+      android:gravity="center"
+      android:id="@+id/resultado"
+      />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esta calculadora permite calcular areas de figuras geometricas"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora normal"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/calculadora1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Circulos"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/calculadoracirculos"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Rectangulos"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/calculadorarectangulos"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Cuadrados"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/calculadoracuadrados"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Rombo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/calculadorarombo"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Triangulo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/calculadoratriangulo"
+        />
+
+</LinearLayout>
